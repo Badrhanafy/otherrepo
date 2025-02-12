@@ -1,0 +1,7 @@
+# Ignore node_modules for both frontend & backend
+schoolapp/node_modules/
+school/node_modules/
+
+# Ignore environment variables
+schoolapp/.env
+school/.env
