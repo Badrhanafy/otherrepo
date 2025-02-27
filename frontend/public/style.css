@@ -1,0 +1,95 @@
+#search::placeholder{
+    float: right;
+}
+#search{
+    width: 300px;
+    float: right;
+}
+#card{
+    text-align: end;
+}
+/* Add this to your CSS file */
+body {
+    padding-top: 70px;  /* Adjust this based on your navbar height */
+    
+  }
+  
+  .navbar.fixed-top {
+    z-index: 1000; /* Ensure the navbar is on top of other elements */
+  }
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+  /* por le slider : */
+
+
+  @import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+@font-face {
+  font-family: "f1";
+  src: url("Monadi.ttf");
+}
+@font-face {
+  font-family: "f2";
+  src: url("Hacen-Tehran.ttf");
+}
+@font-face {
+  font-family: "rok3a";
+  src: url('rok3a.ttf');
+}
+#title2,#item{
+  font-family: "f2";
+}
+#title{
+  font-family: "f1";
+}
+#message{
+  font-family: "rok3a";
+  font-size:xx-large
+}
+.strongs{
+  font-family: "f2";
+}
+input[type="range"] {
+  direction: rtl;
+}
+input[type="range"] {
+  transform: scaleX(-1);
+}
+
+
+/* body{
+  color:rgba(112, 110, 110, 0.473)
+} */
+
+
+
+        .typing {
+            font-size: 24px;
+            font-family: monospace;
+            white-space: nowrap;
+            overflow: hidden;
+            border-right: 2px solid black; /* Cursor effect */
+            width: 0;
+            animation: typing 3s steps(30, end) forwards, blink 0.7s infinite;
+        }
+
+        @keyframes typing {
+            from {
+                width: 0;
+            }
+            to {
+                width: 100%;
+            }
+        }
+
+        @keyframes blink {
+            50% {
+                border-color: transparent;
+            }
+        }
+  
+#rangevalue:hover{
+  opacity: 100%;
+  transition: all 1s;
+}
