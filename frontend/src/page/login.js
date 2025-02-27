@@ -11,7 +11,7 @@ const Login = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        try {
+      /*   try {
             const response = await axios.post("http://localhost:3999/login", {
                 email,
                 pwd,
@@ -22,7 +22,8 @@ const Login = () => {
             navigate("/Schools"); 
         } catch (err) {
             setError(err.response?.data?.message || "An error occurred");
-        }
+        } */
+        navigate("/schools")
     };
 
     return (
