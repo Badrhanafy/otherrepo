@@ -4,7 +4,7 @@ import mysql from "mysql2"
 import cors from "cors"
 import path from "path";
 import { fileURLToPath } from "url";
-import bcrypt from "bcrypt";
+const bcrypt = require("bcryptjs");
 import jwt from "jsonwebtoken";
 import { connect } from "http2";
 import { type } from "os";
